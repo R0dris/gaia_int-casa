@@ -156,6 +156,7 @@ div.menu nav
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    margin-bottom: 120px;
 }
 
 #orcamento .card
@@ -245,7 +246,7 @@ form
 
 #orcamento .imagem-botao button
 {
-    margin-top: 150px;
+    margin-top: 90px;
     margin-bottom: 50px;
 }
 
@@ -258,4 +259,57 @@ form
     background-color: white;
     box-shadow: 5px 5px 10px 1px rgba(0,0,0,0.5);
     border-radius: 20px;
+    font-family: "bruno";
+    font-size: 32px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 120px;
+}
+
+#cases .texto-cases
+{
+    width: 210px;
+    height: 230px;
+    margin-left: 100px;
+    margin-top: 100px;
+}
+
+#cases .button-cases
+{
+    display: flex;
+    align-items: flex-end;
+    margin-right: 100px;
+}
+
+#cases .button-cases button
+{
+    width: 250px;
+    height: 130px;
+    margin-bottom: 90px;
+    background-color: var(--laranja-gaia);
+    font-family: "bruno";
+    border: none;
+    font-size: 28px;
+    color: white;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+#empresa .repre
+{
+    font-family: "bruno";
+    font-size: 32px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 120px;
+}
+
+#empresa .repre img
+{
+    margin-top: 50px;
+    width:600px;
 }
